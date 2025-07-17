@@ -1,22 +1,22 @@
 .demo-mode-overlay-content {
-  border: 2px solid #00bfff;
+  border: 0.139vw solid #00bfff;
   z-index: 100;
   pointer-events: none;
-  border-radius: 10.5px;
+  border-radius: 0.729vw;
 }
 
 .demo-mode-enhance-content {
-  border: 2px solid #00bfff;
+  border: 0.139vw solid #00bfff;
   pointer-events: none;
-  border-radius: 10.5px;
+  border-radius: 0.729vw;
 }
 
 .demo-mode-image-content {
-  border: 2px solid #00bfff;
+  border: 0.139vw solid #00bfff;
   z-index: 100;
   pointer-events: none;
-  padding: 24px;
-  border-radius: 8px;
+  padding: 1.667vw;
+  border-radius: 0.556vw;
   position: relative;
 }
 
@@ -25,21 +25,6 @@
   inset: 0;
   background: rgba(0, 0, 0, 0.5);
   z-index: 10;
-
-  .fade-enter-active,
-  .fade-leave-active {
-    transition: opacity 0.75s ease;
-  }
-
-  .fade-enter-from,
-  .fade-leave-to {
-    opacity: 0;
-  }
-
-  .fade-enter-to,
-  .fade-leave-from {
-    opacity: 1;
-  }
 
   .got-it-btn {
     width: 100%;
@@ -53,10 +38,10 @@
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(0, 0, 50, 0.85);
-    border: 2px solid #00bfff;
+    border: 0.139vw solid #00bfff;
     box-shadow: 0px 0.75px 4.95px #00c4fa;
-    border-radius: 10px;
-    padding: 16px 20px;
+    border-radius: 0.729vw;
+    padding: 1.778vh 1.389vw;
     color: white;
     width: 41.458vw;
     height: 7.111vh;
@@ -72,10 +57,10 @@
   .tooltip-box {
     background: #0a0622;
     color: white;
-    border: 1.5px solid #00c4fa;
+    border: 0.104vw solid #00c4fa;
     box-shadow: 0px 0.75px 4.95px #00c4fa;
-    border-radius: 12px;
-    padding: 16px 20px;
+    border-radius: 0.833vw;
+    padding: 1.778vh 1.389vw;
     width: 26.51vw;
     height: 24.59vh;
     font-family: 'Segoe UI', sans-serif;
@@ -89,22 +74,22 @@
   .tooltip-row {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 12px;
+    margin-bottom: 1.333vh;
   }
 
   .tooltip-circle {
-    width: 22.88px;
-    height: 22.88px;
+    width: 1.589vw;
+    height: 2.542vh;
     border-radius: 50%;
     background-color: transparent;
-    border: 1.5px solid #00c4fa;
+    border: 0.104vw solid #00c4fa;
     color: white;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 8px;
+    margin-right: 0.556vw;
     flex-shrink: 0;
   }
 
@@ -114,34 +99,34 @@
     color: #00c4fa;
     font-weight: bold;
     cursor: pointer;
-    font-size: 18px;
-    margin-top: 8px;
+    font-size: 1.125em;
+    margin-top: 0.889vh;
     float: right;
   }
 
   .tooltip-box::after {
     content: '';
     position: absolute;
-    bottom: -12px;
-    left: 40px;
+    bottom: -1.333vh;
+    left: 2.778vw;
     width: 0;
     height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 12px solid #0d0a2b;
+    border-left: 0.694vw solid transparent;
+    border-right: 0.694vw solid transparent;
+    border-top: 1.4vh solid #0d0a2b;
     z-index: 2;
   }
 
   .tooltip-box::before {
     content: '';
     position: absolute;
-    bottom: -14px;
-    left: 39px;
+    bottom: -1.556vh;
+    left: 2.708vw;
     width: 0;
     height: 0;
-    border-left: 11px solid transparent;
-    border-right: 11px solid transparent;
-    border-top: 14px solid #00bfff;
+    border-left: 0.764vw solid transparent;
+    border-right: 0.764vw solid transparent;
+    border-top: 1.556vh solid #00bfff;
     z-index: 1;
   }
 }
@@ -159,7 +144,7 @@
   }
 
   .overlay-textbox {
-    border: 1.5px solid #00c4fa;
+    border: 0.104vw solid #00c4fa;
     z-index: 9;
     pointer-events: none;
   }
@@ -170,15 +155,15 @@
     left: 50%;
     transform: translateX(-50%);
     background-color: #0a0622;
-    border: 1.5px solid #00c4fa;
+    border: 0.104vw solid #00c4fa;
     box-shadow: 0px 0.75px 4.95px #00c4fa;
-    border-radius: 10px;
-    padding: 16px 20px;
+    border-radius: 0.729vw;
+    padding: 1.778vh 1.389vw;
     color: white;
     width: 41.458vw;
     height: 7.111vh;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.125em;
   }
 
   .tooltip-wrapper {
@@ -190,36 +175,36 @@
   .tooltip-box {
     background: #0a0622;
     color: white;
-    border: 1.5px solid #00c4fa;
+    border: 0.104vw solid #00c4fa;
     box-shadow: 0px 0.75px 4.95px #00c4fa;
-    border-radius: 12px;
-    padding: 16px 20px;
+    border-radius: 0.833vw;
+    padding: 1.778vh 1.389vw;
     width: 26.51vw;
     height: 25.59vh;
     font-family: 'IntelOne';
-    font-size: 16.5px;
+    font-size: 1em;
     position: relative;
   }
 
   .tooltip-row {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 12px;
+    margin-bottom: 1.333vh;
   }
 
   .tooltip-circle {
-    width: 22.88px;
-    height: 22.88px;
+    width: 1.589vw;
+    height: 2.542vh;
     border-radius: 50%;
     background-color: transparent;
-    border: 1.5px solid #00c4fa;
+    border: 0.104vw solid #00c4fa;
     color: white;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 8px;
+    margin-right: 0.556vw;
     flex-shrink: 0;
   }
 
@@ -229,34 +214,34 @@
     color: #00c4fa;
     font-weight: bold;
     cursor: pointer;
-    font-size: 18px;
-    margin-top: 8px;
+    font-size: 1.125em;
+    margin-top: 0.889vh;
     float: right;
   }
 
   .tooltip-box::after {
     content: '';
     position: absolute;
-    bottom: -12px;
-    left: 40px;
+    bottom: -1.333vh;
+    left: 2.778vw;
     width: 0;
     height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 12px solid #0d0a2b;
+    border-left: 0.694vw solid transparent;
+    border-right: 0.694vw solid transparent;
+    border-top: 1.4vh solid #0d0a2b;
     z-index: 2;
   }
 
   .tooltip-box::before {
     content: '';
     position: absolute;
-    bottom: -14px;
-    left: 39px;
+    bottom: -1.556vh;
+    left: 2.708vw;
     width: 0;
     height: 0;
-    border-left: 11px solid transparent;
-    border-right: 11px solid transparent;
-    border-top: 14px solid #00bfff;
+    border-left: 0.764vw solid transparent;
+    border-right: 0.764vw solid transparent;
+    border-top: 1.556vh solid #00bfff;
     z-index: 1;
   }
 }
@@ -280,30 +265,30 @@
   }
 
   .popup-box {
-    border: 1.5px solid #00c4fa;
+    border: 0.104vw solid #00c4fa;
     box-shadow: 0px 0.75px 4.95px #00c4fa;
     background: #0a0622;
     color: #fff;
-    border-radius: 10px;
-    padding: 16px 20px;
-    font-size: 18px;
+    border-radius: 0.729vw;
+    padding: 1.778vh 1.389vw;
+    font-size: 1.125em;
     width: 41.458vw;
     height: 7.111vh;
     position: absolute;
   }
 
   .prompt-popup-box {
-    border: 1.5px solid #00c4fa;
+    border: 0.104vw solid #00c4fa;
     box-shadow: 0px 0.75px 4.95px #00c4fa;
     background: #0a0622;
     color: #fff;
-    border-radius: 10px;
-    font-size: 16.5px;
+    border-radius: 0.729vw;
+    font-size: 1em;
     font-weight: 400;
     width: 26.493vw;
     height: 20.257vh;
     position: absolute;
-    padding: 23px 18px 23px 18px;
+    padding: 2.556vh 1.25vw 2.556vh 1.25vw;
   }
 
   .center-box {
@@ -324,18 +309,18 @@
   }
 
   .step {
-    width: 22.88px;
-    height: 22.88px;
+    width: 1.589vw;
+    height: 2.542vh;
     border-radius: 50%;
     background-color: transparent;
-    border: 1.5px solid #00c4fa;
+    border: 0.104vw solid #00c4fa;
     color: white;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 8px;
+    margin-right: 0.556vw;
     flex-shrink: 0;
   }
 
@@ -345,13 +330,13 @@
 
   .example {
     font-style: IntelOne Display;
-    margin-top: 4px;
+    margin-top: 0.444vh;
     font-weight: 400;
   }
 
   .action {
-    margin-top: 8px;
-    font-size: 18px;
+    margin-top: 0.889vh;
+    font-size: 1.125em;
     font-weight: 500;
     background: none;
     border: none;
@@ -364,26 +349,26 @@
   .prompt-popup-box::after {
     content: '';
     position: absolute;
-    bottom: -12px;
-    left: 40px;
+    bottom: -1.333vh;
+    left: 2.778vw;
     width: 0;
     height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 12px solid #0d0a2b;
+    border-left: 0.694vw solid transparent;
+    border-right: 0.694vw solid transparent;
+    border-top: 1.4vh solid #0d0a2b;
     z-index: 2;
   }
 
   .prompt-popup-box::before {
     content: '';
     position: absolute;
-    bottom: -14px;
-    left: 39px;
+    bottom: -1.556vh;
+    left: 2.708vw;
     width: 0;
     height: 0;
-    border-left: 11px solid transparent;
-    border-right: 11px solid transparent;
-    border-top: 14px solid #00bfff;
+    border-left: 0.764vw solid transparent;
+    border-right: 0.764vw solid transparent;
+    border-top: 1.556vh solid #00bfff;
     z-index: 1;
   }
 }
@@ -409,36 +394,36 @@
   .tooltip-box {
     background: #0a0622;
     color: white;
-    border: 1.5px solid #00c4fa;
+    border: 0.104vw solid #00c4fa;
     box-shadow: 0px 0.75px 4.95px #00c4fa;
-    border-radius: 12px;
-    padding: 16px 20px;
+    border-radius: 0.833vw;
+    padding: 1.778vh 1.389vw;
     width: 26.51vw;
     height: 24.59vh;
     font-family: 'IntelOne';
-    font-size: 16.5px;
+    font-size: 1em;
     position: relative;
   }
 
   .tooltip-row {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 12px;
+    margin-bottom: 1.333vh;
   }
 
   .tooltip-circle {
-    width: 22.88px;
-    height: 22.88px;
+    width: 1.589vw;
+    height: 2.542vh;
     border-radius: 50%;
     background-color: transparent;
-    border: 1.5px solid #00c4fa;
+    border: 0.104vw solid #00c4fa;
     color: white;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 8px;
+    margin-right: 0.556vw;
     flex-shrink: 0;
   }
 
@@ -448,34 +433,34 @@
     color: #00c4fa;
     font-weight: bold;
     cursor: pointer;
-    font-size: 18px;
-    margin-top: 8px;
+    font-size: 1.125em;
+    margin-top: 0.889vh;
     float: right;
   }
 
   .tooltip-box::after {
     content: '';
     position: absolute;
-    bottom: -12px;
-    left: 40px;
+    bottom: -1.333vh;
+    left: 2.778vw;
     width: 0;
     height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 12px solid #0d0a2b;
+    border-left: 0.694vw solid transparent;
+    border-right: 0.694vw solid transparent;
+    border-top: 1.4vh solid #0d0a2b;
     z-index: 2;
   }
 
   .tooltip-box::before {
     content: '';
     position: absolute;
-    bottom: -14px;
-    left: 39px;
+    bottom: -1.556vh;
+    left: 2.708vw;
     width: 0;
     height: 0;
-    border-left: 11px solid transparent;
-    border-right: 11px solid transparent;
-    border-top: 14px solid #00bfff;
+    border-left: 0.764vw solid transparent;
+    border-right: 0.764vw solid transparent;
+    border-top: 1.556vh solid #00bfff;
     z-index: 1;
   }
 }
@@ -501,14 +486,14 @@
   .tooltip-box {
     background: #0a0622;
     color: white;
-    border: 1.5px solid #00c4fa;
+    border: 0.104vw solid #00c4fa;
     box-shadow: 0px 0.75px 4.95px #00c4fa;
-    border-radius: 12px;
-    padding: 16px 20px;
+    border-radius: 0.833vw;
+    padding: 1.778vh 1.389vw;
     width: 26.51vw;
     height: 26.583vh;
     font-family: 'IntelOne';
-    font-size: 16.5px;
+    font-size: 1em;
     position: relative;
     line-height: 100%;
   }
@@ -516,22 +501,22 @@
   .tooltip-row {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 12px;
+    margin-bottom: 1.333vh;
   }
 
   .tooltip-circle {
-    width: 22.88px;
-    height: 22.88px;
+    width: 1.589vw;
+    height: 2.542vh;
     border-radius: 50%;
     background-color: transparent;
-    border: 1.5px solid #00c4fa;
+    border: 0.104vw solid #00c4fa;
     color: white;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 8px;
+    margin-right: 0.556vw;
     flex-shrink: 0;
   }
 
@@ -541,34 +526,34 @@
     color: #00c4fa;
     font-weight: bold;
     cursor: pointer;
-    font-size: 18px;
-    margin-top: 8px;
+    font-size: 1.125em;
+    margin-top: 0.889vh;
     float: right;
   }
 
   .tooltip-box::after {
     content: '';
     position: absolute;
-    bottom: -12px;
-    left: 40px;
+    bottom: -1.333vh;
+    left: 2.778vw;
     width: 0;
     height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 12px solid #0d0a2b;
+    border-left: 0.694vw solid transparent;
+    border-right: 0.694vw solid transparent;
+    border-top: 1.4vh solid #0d0a2b;
     z-index: 2;
   }
 
   .tooltip-box::before {
     content: '';
     position: absolute;
-    bottom: -14px;
-    left: 39px;
+    bottom: -1.556vh;
+    left: 2.708vw;
     width: 0;
     height: 0;
-    border-left: 11px solid transparent;
-    border-right: 11px solid transparent;
-    border-top: 14px solid #00bfff;
+    border-left: 0.764vw solid transparent;
+    border-right: 0.764vw solid transparent;
+    border-top: 1.556vh solid #00bfff;
     z-index: 1;
   }
 }
@@ -594,14 +579,14 @@
   .tooltip-box {
     background: #0a0622;
     color: white;
-    border: 1.5px solid #00c4fa;
+    border: 0.104vw solid #00c4fa;
     box-shadow: 0px 0.75px 4.95px #00c4fa;
-    border-radius: 12px;
-    padding: 16px 20px;
+    border-radius: 0.833vw;
+    padding: 1.778vh 1.389vw;
     width: 27.361vw;
     height: 27.25vh;
     font-family: 'IntelOne';
-    font-size: 16.5px;
+    font-size: 1em;
     position: relative;
     line-height: 110%;
   }
@@ -609,22 +594,22 @@
   .tooltip-row {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 12px;
+    margin-bottom: 1.333vh;
   }
 
   .tooltip-circle {
-    width: 22.88px;
-    height: 22.88px;
+    width: 1.589vw;
+    height: 2.542vh;
     border-radius: 50%;
     background-color: transparent;
-    border: 1.5px solid #00c4fa;
+    border: 0.104vw solid #00c4fa;
     color: white;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 8px;
+    margin-right: 0.556vw;
     flex-shrink: 0;
   }
 
@@ -634,62 +619,62 @@
     color: #00c4fa;
     font-weight: bold;
     cursor: pointer;
-    font-size: 18px;
-    margin-top: 8px;
+    font-size: 1.125em;
+    margin-top: 0.889vh;
     float: right;
   }
 
   .tooltip-box::after {
     content: '';
     position: absolute;
-    right: -12px; /* Align to the right side */
-    bottom: 92px; /* Adjust vertically as needed */
+    right: -0.833vw; /* Align to the right side */
+    bottom: 10.222vh; /* Adjust vertically as needed */
     width: 0;
     height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 12px solid #0d0a2b; /* Inner arrow */
+    border-top: 1.111vh solid transparent;
+    border-bottom: 1.111vh solid transparent;
+    border-left: 0.933vw solid #0d0a2b; /* Inner arrow */
     z-index: 2;
   }
 
   .tooltip-box::before {
     content: '';
     position: absolute;
-    right: -14px;
-    bottom: 91px;
+    right: -1.556vh;
+    bottom: 10.111vh;
     width: 0;
     height: 0;
-    border-top: 11px solid transparent;
-    border-bottom: 11px solid transparent;
-    border-left: 14px solid #00bfff; /* Outer border arrow */
+    border-top: 1.222vh solid transparent;
+    border-bottom: 1.222vh solid transparent;
+    border-left: 0.972vw solid #00bfff; /* Outer border arrow */
     z-index: 1;
   }
 }
 
 .demo-mode-inpaint-content {
-  border: 2px solid #00bfff;
+  border: 0.139vw solid #00bfff;
   z-index: 100;
   pointer-events: none;
-  padding: 20px;
-  border-radius: 10.5px;
+  padding: 1.389vw;
+  border-radius: 0.729vw;
   position: relative;
 }
 
 .demo-mode-outpaint-content {
-  border: 2px solid #00bfff;
+  border: 0.139vw solid #00bfff;
   z-index: 100;
   pointer-events: none;
-  padding: 10px;
-  border-radius: 10.5px;
+  padding: 0.694vw;
+  border-radius: 0.729vw;
   position: relative;
 }
 
 .demo-mode-denoise-content {
-  border: 2px solid #00bfff;
+  border: 0.139vw solid #00bfff;
   z-index: 100;
   pointer-events: none;
-  padding: 40px;
-  border-radius: 10.5px;
+  padding: 2.778vw;
+  border-radius: 0.729vw;
   position: relative;
 }
 
@@ -710,13 +695,13 @@
 
 .demo-help-button {
   position: absolute;
-  top: 12px;
-  right: 20px;
+  top: 1.333vh;
+  right: 1.389vw;
   background-color: #01aef2;
   color: #fff;
   font-weight: 400;
-  padding: 6px 12px;
-  border-radius: 6px;
+  padding: 0.667vh 0.833vw;
+  border-radius: 0.417vw;
   border: none;
   cursor: pointer;
   font-size: 0.8vw;
@@ -740,13 +725,13 @@
   top: 0;
   left: 0;
   transform: translate(-50%, -50%);
-  width: 22.88px;
-  height: 22.88px;
+  width: 1.589vw;
+  height: 2.542vh;
   border-radius: 50%;
-  border: 1.5px solid #00c4fa;
+  border: 0.104vw solid #00c4fa;
   color: white;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 1em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -765,10 +750,10 @@
   height: 100%;
   &::after {
     position: absolute;
-    right: -25px;
+    right: -1.736vw;
     top: 0px;
     height: 108%;
     content: '';
-    border-right: 2px solid #00c4fa;
+    border-right: 0.139vw solid #00c4fa;
   }
 }
